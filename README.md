@@ -147,9 +147,9 @@ The SigNET framework is implemented across six scripts that execute the algorith
 
 | Script | Component | Input | Output |
 |--------|-----------|-------|--------|
-| `2.1_commot_p0_direct.py` | Direct communication | Xenium spatial data | Direct interaction matrices (≤50μm) |
-| `2.2_commot_p0_indirect.py` | Indirect communication | Xenium spatial data | Indirect interaction matrices (≤200μm) |
-| `2.3_grn_p0.py` | GRN inference | Communication results + expression | TF-target edge list |
+| `2.1_commot_direct.py` | Direct communication | Xenium spatial data | Direct interaction matrices (≤50μm) |
+| `2.2_commot_indirect.py` | Indirect communication | Xenium spatial data | Indirect interaction matrices (≤200μm) |
+| `2.3_grn.py` | GRN inference | Communication results + expression | TF-target edge list |
 | `2.4_Commot_Result_summary.py` | Multi-scale aggregation | Interaction matrices | Cell type & niche summaries |
 | `2.5_SigNET_network.R` | TF module construction | GRN edge list | Filtered TF modules |
 | `2.6_main_figure_generation.R` | Visualization | All previous outputs | Publication figures |
@@ -296,16 +296,15 @@ bioRxiv 2025.03.10.642473; doi: https://doi.org/10.1101/2025.03.10.642473
 
 ## License & Availability
 
-- **Code**: Available at https://github.com/whfbio/PIP_seq
+- **Code**: Available at https://github.com/whfbio/SigNET
 ---
 
 ## Contact
 
 For questions regarding the SigNET algorithm:
 - **Implementation**: Yiran Song, Haofei Wang
-- **Repository**: https://github.com/whfbio/PIP_seq/tree/main/Figure2
-
+- **Repository**: https://github.com/whfbio/SigNET
 ---
 
 **Algorithm Version**: 1.0  
-**Last Updated**: March 2025
+**Last Updated**: Feb 2026
