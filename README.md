@@ -220,9 +220,9 @@ Rscript install_packages.R
 Execute scripts sequentially for complete SigNET analysis:
 
 ```bash
-python 2.1_commot_p0_direct.py
-python 2.2_commot_p0_indirect.py
-python 2.3_grn_p0.py
+python 2.1_commot_direct.py
+python 2.2_commot_indirect.py
+python 2.3_grn.py
 python 2.4_Commot_Result_summary.py
 Rscript 2.5_SigNET_network.R
 Rscript 2.6_main_figure_generation.R
